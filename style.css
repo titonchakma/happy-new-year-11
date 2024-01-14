@@ -1,0 +1,217 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    width: 1600px;
+    height: 7335px;
+    background: #FFF;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 50px 150px auto 150px;
+    width: 1320px;
+    height: auto;
+    border-radius: 16px;
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.banner-h{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translate(-50%, -20%);
+    color: #60bdc0;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-p{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translate(-50%, -30%);
+    color: #f3cf06;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+.deals_photo{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.deal{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deal-h1{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.deal-h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deals_photo img{
+    margin: 0 auto;
+    width: 802.9px ;
+    height: 500px; 
+}
+
+.party{
+    top:200px;
+    position: relative;
+
+}
+.party-img{
+    width: 1320px;
+    height: 600px;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    margin: 0 auto;
+}
+
+.party-content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top:15%;
+    left: 30%;
+    transform: translate(-30%, -15%);
+}
+
+.party h1{
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    
+}
+
+.party p{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.party span{
+    margin-left: 30PX;
+    margin-top: 30px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.party .party-icon{
+    position: absolute;
+    top: 50%;
+    left:80%;
+    transform: translate(-80%, -50%);
+}
+
+
+.party-place{
+    margin: 500px auto 0;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.party-place h1,h2,h3,button{
+    text-align: center;
+}
+
+.party h1, h2, h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+
+.party .place{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+.party-place .btn{
+    margin:0 auto;
+    width: 100px;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    
+   
+}
+
+.new-offer-ad{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
